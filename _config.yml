@@ -20,8 +20,4 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 highlighter: rouge
-<<<<<<< HEAD
 encoding: utf-8
-=======
-encoding: utf-8
->>>>>>> origin/master
