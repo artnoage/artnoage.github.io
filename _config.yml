@@ -12,12 +12,12 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+baseurl: /
+title: Vaios Laschos
+author: Vaios Laschos
 description: Personal blog and resume
-avatar: profile.png
-email: yourname@email.com
+avatar: profile.jpg
+email: artnoage@gmail.com
 github: biomadeira/sustain # username
 twitter: username
 linkedin: username
