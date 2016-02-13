@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My CV</title>
-    <meta name="description" content="My CV">
-    <meta name="author" content="My CV @twitter">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="{{ site.baseurl }}/static/css/base.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/static/css/skeleton.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/static/css/layout.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-</head>
-<body>
-<div class="container">
-    <header class="four columns">
-        <img src="{{ site.baseurl }}/static/img/profile.jpg" class="me">
+<html lang="en">
+
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-4  blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <img src="{{ site.baseurl }}/static/img/profile.jpg" class="me">
         <h1>Vaios Laschos</h1>
         <p>
             <a href="tel:+4915780744980">+4915780744980</a>
@@ -27,28 +23,32 @@
         </address>
         <p>
             <a href="mailto:Vaios.laschos@wias-berlin.de">Vaios.laschos@wias-berlin.de</a><br/>
-            <a href="https://www.linkedin.com/in/vaios-laschos-882b01b6?trk=hp-identity-name"><i class="fa fa-linkedin"></i> Linkedin</a> /
-            <a href="https://www.facebook.com/vaios.laschos"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="https://www.linkedin.com/in/vaios-laschos-882b01b6?trk=hp-identity-name"><i class="fa fa-linkedin"></i> </a> /
+            <a href="https://www.facebook.com/vaios.laschos"><i class="fa fa-facebook"></i> </a>
         </p>
-    </header>
-    <div class="twelve columns clearfix">
+          </div>
+        </div><!-- /.blog-sidebar -->
+		
+        <div class="col-sm-8 blog-main">
 
-        <section class="twelve columns">
-    <h1>Academic Appointments</h1>
+            
+  <div class="panel panel-default">
+    <div class="panel-body">
+    <h3>Academic Appointments</h3>
     <article>
         <header>
-            <h1><a href="https://www.wias-berlin.de/"> WIAS </a></h1>
-            <span><address>Berlin, Germany</address><time>November 2015 to Present</time></span>
+            <h3><a href="https://www.wias-berlin.de/"> WIAS </a></h3>
+            <span><address>Berlin, Germany. From November 2015 to Present</time></span>
         </header>
         <p>Lorem ipsum dolor sit amet, his et viris petentium philosophia,
             at vix debitis deleniti. At vis velit volumus alienum, agam vocent assueverit usu ex. </p>
     </article>
     <article>
         <header>
-            <h1>
+            <h3>
 			<a href="https://www.brown.edu/academics/applied-mathematics/"> Brown University </a>
-            </h1>
-			<span><address>Providence, USA</address> <time>August 2013 to 2015</time></span>
+            </h3>
+			<span><address>Providence, USA. From August 2013 to 2015</time></span>
         </header>
         <p>Qui bonorum menandri intellegebat ex, mel quando oblique an. Et eam virtute debitis philosophia,
             unum ancillae disputationi vim in. Ipsum vidisse meliore ex eum,
@@ -56,20 +56,21 @@
     </article>
     <article>
         <header>
-            <h1><a href="http://www.mis.mpg.de/index.html">Max-Planck Institute</a></h1>
-            <span><address>University of Glasgow, Glasgow, UK</address><time>2013 to 2014</time></span>
+            <h3><a href="http://www.mis.mpg.de/index.html">Max-Planck Institute</a></h3>
+            <span><address>Leipzig, Germany. From 2013 to 2014</time></span>
         </header>
         <p>Latine bonorum deserunt at nam. Mea nisl officiis eu, propriae similique has te, mei an brute meliore electram.
             Quo admodum omittantur ei, etiam principes at eos. Sit vocent commodo ceteros in, at mel idque everti.</p>
     </article>
-</section>
+</div>
+</div>
 
-
-<section class="twelve columns">
-    <h1>Education</h1>
+  <div class="panel panel-default">
+    <div class="panel-body">
+    <h3>Education</h3>
     <article>
         <header>
-            <h1>PhD in Applied Mathematics</h1>
+            <h3>PhD in Applied Mathematics</h3>
             <span><a href="http://www.bath.ac.uk/math-sci/">University of Bath</a>,</span>
             <address>Bath, UK. From 2009 to 2013</address>
         </header>
@@ -79,7 +80,7 @@
     </article>
     <article>
         <header>
-            <h1>Master in Pure Mathematics</h1>
+            <h3>Master in Pure Mathematics</h3>
             <span><a href="http://www.math.auth.gr/en/node/44"> Aristotle University of Thessaloniki</a></span>
             <address>Thessaloniki, Greece. From 2005 to 2009</address>
         </header>
@@ -90,19 +91,20 @@
 	 
 	  <article>
         <header>
-            <h1>Major in Pure Mathematics</h1>
+            <h3>Major in Pure Mathematics</h3>
             <span><a href="http://www.math.auth.gr/en/node/44"> Aristotle University of Thessaloniki</a></span>
             <address>Thessaloniki, Greece. From 2000 to 2005</address>
         </header>
     </article>
-</section>
+</div>
+</div>
 
-
-<section class="twelve columns">
-    <h1>Programming Skills</h1>
+<div class="panel panel-default">
+    <div class="panel-body">
+    <h3>Programming Skills</h3>
     <article>
         <header>
-            <h1>Software engineering & web development</h1>
+            <h3>Software engineering & web development</h3>
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
@@ -116,13 +118,14 @@
             &nbsp;&nbsp;<em>HTML</em> &amp <em>Python</em>
         </p>
     </article>
-</section>
-
-<section class="twelve columns">
-    <h1>Language Skills</h1>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+    <h3>Language Skills</h3>
     <article>
         <header>
-            <h1>Software engineering & web development</h1>
+            <h3>Software engineering & web development</h3>
         </header>
         <p>
             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
@@ -136,21 +139,24 @@
             &nbsp;&nbsp;<em>German</em> 
         </p>
     </article>
-</section>
-
-<section class="twelve columns">
-    <h1>Hobbies</h1>
+</div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+    <h3>Hobbies</h3>
     <article>
         <p> Climbing, Yoga, Travelling, Cooking.</p>
     </article>
-</section>
+</div>
+</div>
+
+        </div><!-- /.blog-main -->
 
 
-    <footer class="twelve columns">
-        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-            <a href="https://www.github.com/biomadeira/vitae">vitae</a> with ♥</p>
-    </footer>
-    </div>
-</div>	
-</body>
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+  
+  </body>
 </html>
