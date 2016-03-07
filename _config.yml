@@ -1,13 +1,10 @@
 # top level stuff you probably don't need to touch
 highlighter: rouge
-rdiscount:
-  extensions: [smart]
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
 port: 4000
 safe: true
-
 
 # edit here to achieve your personal greatness
 url: http://artnoage.github.io/
@@ -19,5 +16,4 @@ email: Vaios.laschos@wias-berlin.de
 
 
 
-# needed for travis-ci build
-exclude: [vendor]
+
