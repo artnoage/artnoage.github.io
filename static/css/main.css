@@ -184,6 +184,13 @@ body {
  margin: 0 auto 0;
 }
 
+.avatar2 img.image {
+ display:block;
+ height: auto;
+ max-width: 60%;
+ margin: 0 auto 0;
+}
+
 .avatar:hover img.image {
 display:none;
 }
