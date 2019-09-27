@@ -48,7 +48,7 @@ body {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #CC7157;
   background-color: #ffffff;
-}
+}40
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #CC7157;
   background-color: #ffffff;
@@ -187,7 +187,7 @@ body {
 .avatar2 img.image {
  display:block;
  height: auto;
- max-width: 80%;
+ max-width:150%;
  margin: 0 auto 0;
 }
 
